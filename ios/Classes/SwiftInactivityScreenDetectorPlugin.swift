@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class InactivityScreenDetectorPlugin: NSObject, FlutterPlugin {
+public class SwiftInactivityScreenDetectorPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "inactivity_screen_detector", binaryMessenger: registrar.messenger())
-    let instance = InactivityScreenDetectorPlugin()
+    let instance = SwiftInactivityScreenDetectorPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

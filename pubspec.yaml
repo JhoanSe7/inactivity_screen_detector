@@ -2,6 +2,8 @@ name: inactivity_screen_detector
 description: The inactivity detector reacts to inactivity on the screen
 version: 0.0.1
 
+repository: https://github.com/JhoanSe7/inactivity_screen_detector.git
+
 environment:
   sdk: '>=2.19.6 <3.0.0'
   flutter: ">=2.5.0"

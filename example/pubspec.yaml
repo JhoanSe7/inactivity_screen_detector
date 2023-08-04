@@ -1,0 +1,25 @@
+name: inactivity_screen_detector_example
+description: Demonstrates how to use the inactivity_screen_detector plugin.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  inactivity_screen_detector:
+    path: ../
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
